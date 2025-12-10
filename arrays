@@ -1,0 +1,102 @@
+//finding the size of an array
+
+#include <stdio.h>
+
+int main() {
+  int arr[5] = {1,2,3,4,5};
+
+int n = sizeof(arr) = / sizeof(arr[0]);
+
+printf("%d", n);
+return 0;
+
+}
+----------------------------------
+//updating an array element
+
+#include <string.h>
+
+int main() {
+
+  int arr[5] = {2,4,8,12,16};
+
+arr [0] = 1;
+printf("%d", arr[0]);
+
+
+return 0;
+}
+----------------------------------
+
+//basic array
+
+#include <stdio.h>
+
+int main() {
+  int arr[] = {2,4,8,12,16,18};
+  int n = sizeof(arr[])/sizeof(arr[0]);
+
+for (int i = 0; i < n; i++) {
+  printf("%d", arr[i]
+}
+return 0;
+
+}
+
+------------------------------------
+//accessing & printfing array elements
+
+
+
+#include <stdio.h>
+
+int main() {
+
+  int arr[5] = {2,4,8,12,16};
+
+  printf("%d", arr[0]);
+
+  printf("%d", arr[2]);
+
+  printf("%d", arr[4]);
+
+return 0;
+}
+---------------------------------------
+
+//array traversal
+
+include <stdio.h>
+
+int main() {
+
+  int arr[5] = {2,4,8,12,16};
+
+  printf("Printing array elements\n");
+  for (int i = 0; i < 5; i++) {
+printf("%d", arr[i]);
+}
+
+printf("\n");
+
+printf("printing array elements in REVERSE\n");
+for (int i = 4; i >= 0; i--) {
+printf("%d", arr[i]);
+}
+
+return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
