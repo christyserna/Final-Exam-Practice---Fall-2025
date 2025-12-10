@@ -1,0 +1,80 @@
+// rels between pointers & arrays
+
+#include <stdio.h>
+
+int main() {
+ int arr[5] = {1,2,3,4,5};
+
+ int *ptr = &arr[0]                                                     //address of first element
+
+ printf("array[3]: %d\n", arr[3]);                                      //prints alement at arr[3]
+
+ printf("array[3] using pointer to first element = %d", *(ptr + 3));    //prints elemnet at arr[3] using ptr
+
+ printf("pointer to first element: %p\n", ptr);                         //pointer to first element
+
+ printf("array name: %p", arr);                       //array name as pointer
+
+return 0;
+}
+
+
+-----------------------------
+//dereferencing a pointer
+
+
+#include <stdio.h>
+
+int main() {
+
+int var = 10;                 //normal variable
+
+int *ptr = &var;               //pointer variable ptr that STORES ADDRESS of var
+
+printf("%d", ptr);          //prints address
+
+return 0;
+}
+
+
+-------------------------------
+//szie of pointers
+
+#include <stdio.h>
+
+int main() {
+  int *ptr1;
+  char *ptr;
+
+  printf("%zu\n", sizeof(ptr1));
+  printf("%zu\n", sizeof(ptr2));
+
+  return 0;
+
+
+
+return 0;
+}
+------------------------------
+
+#include <stdio.h>
+
+int main() {
+
+chat atr[20] = "CITE30103";
+
+char* ptr = str;          //stores the starting address of the char array str
+
+while (*ptr != '\o' {          //will run until the char value is not equal to null char at end
+printf("5c", *ptr);
+ptr++;
+}
+return 0;
+}
+
+
+
+
+
+
+
