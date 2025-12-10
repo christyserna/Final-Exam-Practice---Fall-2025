@@ -1,0 +1,91 @@
+//entry controlled WHILE LOOP
+
+#include <stdio.h>
+
+int main() {
+  int limit = 20; //specifies limit for even numbers
+  int num = 2; // starts with the first even number
+  int sum = 0; //variable to store the sum of cubes
+
+while (num <= limit) {
+
+  int cube = num * num * num;
+
+  sum += cube;
+
+   num += 2;
+}
+
+printf("sum of cubes of even numbers add up to 5d: %d\n", limit, sum);
+return 0;
+}
+
+-------------------------------------------
+//exit controlled DO WHILE LOOP
+
+#include <stdio.h>
+
+int main() {
+
+int i = 0;
+
+do 
+{ 
+  printf("%d", i);
+
+  i++;
+
+} while (i <= 10);
+
+return 0;
+}
+
+----------------------------------------------
+
+//infinite loops
+
+#include <stdio.h>
+
+int main() {
+
+for ( ; ; ) {
+  printf("This loop will run forever!");
+}
+return 0;
+}
+
+
+---------------
+
+#include <stdio.h>
+
+int main() {
+  do {
+    print("runs forever!");
+}  while (1);
+
+return 0;
+}
+
+--------------
+
+#include <stdio.h>
+
+int main() {
+
+while (1) {
+  printf("this loop will run forever!");
+}
+
+return 0;
+}
+
+
+
+
+
+
+
+
+return 0;
+}
