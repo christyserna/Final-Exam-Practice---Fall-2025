@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+
+  int a = 17;
+  int b = 16;
+  int c = 30;
+  int d;
+
+  d = (a > b? a : b);
+  printf("the bigger number is: %d", d);
+  // condition1 says that if a is bigger than b, then express a. if not, express b as d. print d
+
+
+  d = ( a > b? (a > c? a : c) : (b > c? b : c));
+  printf("the largest number is: %d", d);
+  // condition1 asks that if a is greater than b, check if a is greater than c. if it is greater than c
+  // then express a. if it is bigger than b but not bigger than c, express c. if a was NOT bigger than b,
+  // then check if b is bigger than c. if it is, express b. if not, express c. print whatever the outcome is
+
+
+return 0;
+}
