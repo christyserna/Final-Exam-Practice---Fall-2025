@@ -86,7 +86,15 @@ printf("%d", arr[i]);
 
 return 0;
 }
+---------------------------------------
 
+//arrays in strings
+
+char arr[4][8] = {"elephant", "pen", "cat", "hello"};
+//takes up more memory than it needs to, not as efficient
+
+char *arr[4] = {"elephant", "pen", "cat", "hello"};
+//takes up only the memory it needs to, the most efficient option!
 
 
 
